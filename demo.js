@@ -11,7 +11,7 @@ var pc = new WXBizDataCrypt(appId, sessionKey);
 try {
   var data = pc.decryptData(encryptedData, iv);
 } catch (error) {
-  console.log(error.message);
+  console.log(error.message)
 }
 
 // 解密后的数据为
