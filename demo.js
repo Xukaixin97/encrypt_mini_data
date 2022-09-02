@@ -1,10 +1,10 @@
 var WXBizDataCrypt = require('./WXBizDataCrypt');
 
-var appId = 'wx49af818df3d44d95';
-var sessionKey = 'NdqK15S9KxFEANnbrMjHNQ==';
+var appId = '';
+var sessionKey = '';
 var encryptedData =
-  'aGQYhICKdG7rlSfkO3v+w6x+P94Ecrf4viJH/9UvHxWzNmveq08VAs2qcN+ddPGSfT9G9orsgh4326s5j9s3UxcuJuUKZcw5Byd1svTc6qwhC+Nvvk9xB2XrcsFd+dzKTB/KcQt2YaUeKPqvOzJbdUhsRWKTTzkLbUaLl2ismULF4sCKi0hgFJ1EjWw7UyC3MYa+w3dmXip2bkk0HyyKrw==';
-var iv = 'qUq5qrg3cGclmG62EiHeEw==';
+  '';
+var iv = '';
 
 var pc = new WXBizDataCrypt(appId, sessionKey);
 
